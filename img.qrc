@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/imgenes">
+        <file>imgenes/atras - copia.png</file>
+        <file>imgenes/imc.png</file>
+    </qresource>
+</RCC>

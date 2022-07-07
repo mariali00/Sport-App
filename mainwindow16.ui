@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow16</class>
+ <widget class="QMainWindow" name="MainWindow16">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>750</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Educación Física UO</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/res/registro2.svg</normaloff>:/icons/res/registro2.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton 
+{
+	border-radius:5px;
+	background-color: &quot;white&quot;;
+}
+
+QPushButton:hover { background-color: rgb(200,200,200)}
+
+#centralwidget
+{
+border-image: url(:/images/fondo.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Agregar entrada</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>601</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>REGISTRO PARA AUTOEVALUACION</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Estudiante</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>360</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Eliminar entrada</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Control Parcial</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/icons/atras.png</normaloff>:/icons/atras.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>711</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <column>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fuerza de brazos</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Flexibilidad</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fuerza abdominal</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fuerza explosiva
+de piernas</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Velocidad</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resistencia</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAjustes">
+    <property name="title">
+     <string>Ajustes</string>
+    </property>
+    <addaction name="actionRestaurar_ajustes_predeterminados"/>
+   </widget>
+   <addaction name="menuAjustes"/>
+  </widget>
+  <action name="actionRestaurar_ajustes_predeterminados">
+   <property name="text">
+    <string>Restaurar ajustes predeterminados</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

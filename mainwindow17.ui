@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow17</class>
+ <widget class="QMainWindow" name="MainWindow17">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1063</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/res/registro2.svg</normaloff>:/icons/res/registro2.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton 
+{
+	border-radius:5px;
+	background-color: &quot;white&quot;;
+}
+
+QPushButton:hover { background-color: rgb(200,200,200)}
+
+#centralwidget
+{
+border-image: url(:/images/res/fondo.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>1001</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <column>
+     <property name="text">
+      <string>Carrera</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Hombres
+Satisfactorio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Hombres
+No Satisfactorio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Hombres
+No realizaron</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mujeres
+Satisfactorio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mujeres
+No Satisfactorio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mujeres
+No realizaron</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Totales
+Satisfactorio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Totales
+No Satisfactorio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Totales
+No realizaron</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Reporte General</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/icons/atras.png</normaloff>:/icons/atras.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>884</x>
+      <y>592</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exportar a PDF</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1063</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

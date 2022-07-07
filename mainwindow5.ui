@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow5</class>
+ <widget class="QMainWindow" name="MainWindow5">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1350</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1350</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Educación Física UO</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton 
+{
+	border-radius:5px;
+	background-color: &quot;white&quot;;
+}
+
+QPushButton:hover { background-color: rgb(200,200,200)}
+
+#centralwidget
+{
+border-image: url(:/images/fondo.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>4</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/icons/atras.png</normaloff>:/icons/atras.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>-10</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>REGISTRO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>541</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Carrera y Grupo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Filtrar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>340</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exportar PDF</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>731</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Sexo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Edad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Peso</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Altura</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cintura</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Flexibilidad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Planchas</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Abdominales</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Salto</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Velocidad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resistencia</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

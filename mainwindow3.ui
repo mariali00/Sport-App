@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow3</class>
+ <widget class="QMainWindow" name="MainWindow3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>300</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Educación Física UO</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/res/registro2.svg</normaloff>:/icons/res/registro2.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton 
+{
+	border-radius:5px;
+	background-color: &quot;white&quot;;
+}
+
+QPushButton:hover { background-color: rgb(200,200,200)}
+
+#centralwidget
+{
+border-image: url(:/images/fondo.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/icons/atras.png</normaloff>:/icons/atras.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>239</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Modificar Grupo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>239</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Crear Grupo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>239</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ir a Grupo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>239</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Obtener Reporte General</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

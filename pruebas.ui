@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pruebas</class>
+ <widget class="QMainWindow" name="pruebas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>551</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Carreras</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Hombres</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mujeres</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Totales</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
